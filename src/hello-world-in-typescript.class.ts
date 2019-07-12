@@ -1,4 +1,4 @@
-export class HelloWorldInTypescript {
+export default class HelloWorldInTypescript {
     static HelloWorld() {
       
       // Interface example for an object
@@ -47,10 +47,6 @@ export class HelloWorldInTypescript {
         }
         constructor(h: number, m: number) { }
       }
-      
-      
-
-
       //////////////////////////////////
       interface SquareConfig {
         color?: string;
