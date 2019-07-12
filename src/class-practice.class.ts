@@ -1,4 +1,4 @@
-export class Grid {
+export default class Grid {
     static origin = {x: 0, y: 0};
 
 
