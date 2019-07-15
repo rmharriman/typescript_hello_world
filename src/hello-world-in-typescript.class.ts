@@ -1,5 +1,5 @@
 export default class HelloWorldInTypescript {
-    static HelloWorld() {
+    constructor(message: string) {
       
       // Interface example for an object
       interface LabeledValue {
@@ -71,11 +71,7 @@ export default class HelloWorldInTypescript {
       console.log(mySquare)
 
       let h1 = document.createElement("h1");
-      h1.innerText = "Hello, World in Typescript!!";
+      h1.innerText = message;
       document.body.appendChild(h1);
-
-
-
-
     }
   }

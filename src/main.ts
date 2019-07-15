@@ -3,11 +3,14 @@
 // import { HelloWorldInTypescript } from  "./hello-world-in-typescript.class";
 import HelloWorld from  "./hello-world-in-typescript.class";
 
+// Names do not match the exported property. 
+// In this case the default exported Grid class is aliased with G
 import G from './class-practice.class';
 
 const style = require("./main.css");
 
-HelloWorld.HelloWorld();
+new HelloWorld("Hello, World in Typescript!!");
+new HelloWorld("Another instance of my class");
 
 let grid1 = new G(1.0);  // 1x scale
 let grid2 = new G(5.0);  // 5x scale
