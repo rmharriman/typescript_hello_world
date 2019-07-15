@@ -7,7 +7,8 @@ import G from './class-practice.class';
 
 const style = require("./main.css");
 
-HelloWorld.HelloWorld();
+new HelloWorld("Hello, World in Typescript!!");
+new HelloWorld("Another instance of my class");
 
 let grid1 = new G(1.0);  // 1x scale
 let grid2 = new G(5.0);  // 5x scale
